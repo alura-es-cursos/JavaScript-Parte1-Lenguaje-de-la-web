@@ -1,0 +1,22 @@
+<section class="container">
+	<h2 id="titulo-form">Adicionar nuevo paciente</h2>
+	<form">
+		<div class="grupo">
+			<label for="nombre">Nombre:</label>
+			<input id="nombre" name="nombre" type="text" placeholder="digite el nombre del paciente" class="campo">
+		</div>
+		<div class="grupo">
+			<label for="peso">Peso:</label>
+			<input id="peso" name="peso" type="text" placeholder="digite el peso del paciente" class="campo campo-medio">
+		</div>
+		<div class="grupo">
+			<label for="altura">Altura:</label>
+			<input id="altura" name="altura" type="text" placeholder="digite la altura del paciente" class="campo campo-medio">
+		</div>
+		<div class="grupo">
+			<label for="gordura">% de Gordura:</label>
+			<input id="gordura" type="text" placeholder="digite el porcentaje de gordura del paciente" class="campo campo-medio">
+		</div>
+		<button id="adicionar-paciente" class="boton bto-principal">Adicionar</button>
+	</form>
+</section>
